@@ -2,9 +2,13 @@ package com.example;
 
 import android.app.Activity;
 import android.app.Fragment;
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+=======
+import android.os.Bundle;
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -12,6 +16,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.widget.Button;
+<<<<<<< HEAD
 
 public class MainActivity extends Activity implements OnClickListener {
 	
@@ -37,6 +42,26 @@ public class MainActivity extends Activity implements OnClickListener {
 	protected void onStart(){
 		super.onStart();
 		Log.i("curso", "Tela 2 executando evento onStart");
+=======
+import android.widget.TextView;
+
+public class MainActivity extends Activity implements OnClickListener {
+
+	@Override
+	public void onClick(View v) {
+		TextView rotuloStatus = (TextView) findViewById(R.id.mProximoButton);
+		rotuloStatus.setText("Botao proximo clicado");
+
+	}
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
+
+		Button botao = (Button) findViewById(R.id.mStatusTextView);
+		botao.setOnClickListener(this);
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
 	}
 
 	@Override

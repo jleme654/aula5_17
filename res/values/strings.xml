@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <resources>
     <string name="app_name">P5_17</string>
+=======
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">P5_16</string>
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
     <string name="action_settings">Settings</string>
     <string name="tit1">Curso Android, Tela 1 !!!</string>
     <string name="tit2">Curso Android, Tela 2 !!!</string>

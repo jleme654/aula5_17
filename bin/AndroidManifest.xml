@@ -13,16 +13,29 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+<<<<<<< HEAD
         <activity
             android:name=".MainActivity"
             android:label="@string/tit1" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+=======
+       <activity
+            android:name="com.example.MainActivity"
+            android:label="@string/tit1" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
+<<<<<<< HEAD
             android:name=".MainActivity2"
+=======
+            android:name="com.example.MainActivity2"
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
             android:label="@string/tit2" >
         </activity>
     </application>

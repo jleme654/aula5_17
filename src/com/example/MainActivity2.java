@@ -2,7 +2,10 @@ package com.example;
 
 import android.app.Activity;
 import android.app.Fragment;
+<<<<<<< HEAD
 import android.content.Intent;
+=======
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -16,6 +19,7 @@ import android.widget.TextView;
 public class MainActivity2 extends Activity implements OnClickListener  {
 
 	@Override
+<<<<<<< HEAD
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main2);
@@ -35,6 +39,22 @@ public class MainActivity2 extends Activity implements OnClickListener  {
 		finish();
 	}
 	
+=======
+	public void onClick(View v) {
+		TextView rotuloStatus = (TextView) findViewById(R.id.mAnteriorButton);
+		rotuloStatus.setText("Botao anterior clicado");
+
+	}
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main2);
+		
+		Button botao = (Button) findViewById(R.id.mStatusTextView);
+		botao.setOnClickListener(this);
+	}
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {

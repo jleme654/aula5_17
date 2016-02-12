@@ -8,14 +8,25 @@
         android:showAsAction="never"
         android:title="@string/action_settings"/>
     <item
+<<<<<<< HEAD
+=======
+        android:id="@+id/mStatusTextView"
+        android:title="@string/status"/>
+    <item
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
         android:id="@+id/mTituloTextView"
         android:title="@string/tit1"/>
     <item
         android:id="@+id/mProximoButton"
         android:title="@string/proximo"/>
+<<<<<<< HEAD
     
     <item
         android:id="@+id/mStatusTextView"
         android:title="@string/status"/>
 
 </menu>
+=======
+
+</menu>
+>>>>>>> 1dfa07a2a511edc76cefc9279b671fdfcf438c38
